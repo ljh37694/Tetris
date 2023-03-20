@@ -5,21 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 제목 -->
     <title>테트리스</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="wrapper">
+        <!-- 게임 텍스트 -->
         <div class="game-text">
+            <!-- 게임이 끝났을 때 나오는 텍스트-->
             <span>Game Over</span>
+
+            <!-- 재시작 버튼 -->
             <button>Restart</button>
         </div>
+
+        <!-- 점수 -->
         <div class="score">0</div>
+
+        <!-- 테트리스 맵 -->
         <div class="playground">
             <ul></ul>
         </div>
     </div>
+    <!-- tetris.js 스크립트 -->
     <script src="tetris.js" type="module"></script>
 </body>
 
